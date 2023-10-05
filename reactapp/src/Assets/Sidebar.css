@@ -1,0 +1,69 @@
+/* Sidebar.css */
+
+/* Styles for the main sidebar container */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  color: #fff;
+  overflow-y: auto;
+  transition: left 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+/* Styles for the open state of the sidebar */
+.sidebar.open {
+  top:50px;
+  left: 0;
+}
+
+/* Styles for the sidebar heading */
+.sidebar h2 {
+  font-size: 24px;
+  padding: 20px 0;
+  text-align: center;
+  background-color: #444;
+}
+
+/* Styles for sidebar buttons/links */
+.sidebar button {
+  display: block;
+  width: 100%;
+  padding: 15px 20px;
+  font-size: 18px;
+  text-align: left;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Styles for sidebar button hover effect */
+.sidebar button:hover {
+  background-color: #555;
+}
+
+/* Styles for the close button (X) */
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Styles for the overlay background when sidebar is open */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 999;
+}

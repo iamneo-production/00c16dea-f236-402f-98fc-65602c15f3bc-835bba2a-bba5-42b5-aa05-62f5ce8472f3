@@ -1,0 +1,56 @@
+/* Home.css */
+
+/* Styles for the main container */
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Styles for the advertisement section */
+.advertisement {
+  margin-bottom: 20px;
+}
+
+.advertisement img {
+  max-width: 100%;
+}
+
+/* Styles for the categories section */
+.category-section {
+  text-align: center;
+}
+
+.category-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Styles for the category container */
+.category-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Styles for each individual category */
+.category {
+  text-decoration: none;
+  color: #333;
+  transition: transform 0.3s ease-in-out;
+}
+
+.category:hover {
+  transform: scale(1.05);
+}
+
+.category img {
+  max-width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.category h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}

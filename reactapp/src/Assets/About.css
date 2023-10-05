@@ -1,0 +1,22 @@
+/* About.css */
+
+/* Styles for the main container */
+.about {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Styles for the heading */
+.about h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+/* Styles for the paragraphs */
+.about p {
+  font-size: 18px;
+  margin: 10px 0;
+}

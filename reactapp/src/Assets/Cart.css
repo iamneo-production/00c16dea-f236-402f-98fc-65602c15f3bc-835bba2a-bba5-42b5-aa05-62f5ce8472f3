@@ -1,0 +1,79 @@
+/* Cart.css */
+
+/* Styles for the main container */
+.cart-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Styles for the heading */
+.cart-page h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+/* Styles for individual cart items */
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #fff;
+}
+
+.cart-item-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-item span {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+/* Styles for the Remove button */
+.cart-item button {
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.cart-item button:hover {
+  background-color: #ff3333;
+}
+
+/* Styles for the "Your cart is empty" message */
+.cart-page p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Styles for the cart total section */
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+/* Styles for the Clear Cart button */
+.cart-page button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.cart-page button:hover {
+  background-color: #222;
+}
